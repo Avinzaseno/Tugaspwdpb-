@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabel dengan Div</title>
+  <style>
+    .table-div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border: 1px solid black;
+      width: 400px;
+      text-align: center;
+    }
+
+    .cell {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .header {
+      background-color: #ccc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tabel dengan &lt;div&gt;</h2>
+
+  <div class="table-div">
+    <div class="cell header">Nama</div>
+    <div class="cell header">Kelas</div>
+    <div class="cell header">Nilai</div>
+
+    <div class="cell">Ibob</div>
+    <div class="cell">10A</div>
+    <div class="cell">90</div>
+
+    <div class="cell">Dodi</div>
+    <div class="cell">10B</div>
+    <div class="cell">85</div>
+  </div>
+
+</body>
+</html>
